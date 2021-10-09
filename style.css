@@ -1,0 +1,104 @@
+
+body {
+background-color: #fffafa; 
+
+}
+.container {
+ max-width: 360px; /* max-width/height -deixar responsivo (no navegador tem a opção de simular um celular) 320 x 480 recomendado*/
+ min-height: 580px;
+ max-height: 880px;
+ margin: 0 auto;
+ border: solid violet 2px;
+ border-radius: 10px;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #f1dbf9 ;    
+ font-family: 'Source Sans Pro', sans-serif;
+ margin-top: 25px;
+
+ 
+}
+.container img {
+    width: 150px; 
+    height: 150px;
+    opacity: 0.7;
+    border-radius: 100px;
+   border: solid violet 2px;
+    margin-top: 12px;
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin-top: 2px;
+}    
+
+.frase {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder; 
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 35px;
+   
+   
+}
+
+span{
+    
+    padding-left: 160px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+footer {
+    
+    
+    margin-top: 50px;
+    font-size: 12px;
+    
+}
+
+/* BOTÕES */
+
+.botao1, .botao2, .botao3{
+    width: 200px;
+    height: 45px;
+   border-radius: 6px;
+    margin-top: 8px;
+    background-color: violet;
+    
+} 
+
+.botao1 a, .botao2 a, .botao3 a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+      
+}
+
+.botao3 a{
+    padding-right: 14px;
+}
+
+.botao1:hover , .botao2:hover, .botao3:hover {  
+    transform: scale(1.08);
+}
+
+
+.botao1 i, .botao2  i {
+    padding: 10px;
+    color: purple;
+    font-size: 30px;
+   
+}
+
+.botao3 i {
+   padding-right:35px;
+   padding-top: 10px;
+   color: purple;
+   font-size: 30px;
+}
+
