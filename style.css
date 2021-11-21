@@ -1,104 +1,126 @@
 
 body {
-background-color: #fffafa; 
-
-}
-.container {
- max-width: 360px; /* max-width/height -deixar responsivo (no navegador tem a opção de simular um celular) 320 x 480 recomendado*/
- min-height: 580px;
- max-height: 880px;
- margin: 0 auto;
- border: solid violet 2px;
- border-radius: 10px;
- text-align: center;
- display: flex;
- flex-direction: column;
- align-items: center;
- background-color: #f1dbf9 ;    
- font-family: 'Source Sans Pro', sans-serif;
- margin-top: 25px;
-
+    background-color: #fffafa; 
+     background-image: url(img/borboleta-final.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: transparent;
+     
+     
+     margin: 0 auto;
+ }
  
-}
-.container img {
-    width: 150px; 
-    height: 150px;
-    opacity: 0.7;
-    border-radius: 100px;
-   border: solid violet 2px;
-    margin-top: 12px;
+ .container {
+  max-width: 360px;
+  min-height: 580px;
+  max-height: 880px;
+  margin: 0 auto;
+  border: solid rgba(206, 188, 206, 0.664) 4px;
+  background-color: #f7d8d8b2 ;    
+  
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+     
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 25px;
+  
+  
+ }
+
+ .principal img {
+     width: 180px; 
+     height: 180px;
+     opacity: 0.7; 
+     border-radius: 100px;
+     border: solid rgba(206, 188, 206, 0.664) 4px;
+     margin-top: 10px;  
+ }
+
+ h1{
+     font-family: 'Ephesis', cursive;
+     font-size: 40px;
+     margin-top: 1px;
+     opacity: 1;   
+ }    
+
+ .frase p{
+     font-family: 'Source Sans Pro', sans-serif;
+     font-weight: bolder; 
+     font-style: italic;
+     font-size: 14px;
+     margin-top: 32px;
+     color: black;
+ }
+ 
+ .frase span{
     
-}
+     padding-left: 135px;
+     font-style: normal;
+     font-weight: normal;
+ }
+ 
+ footer {
+     
+     margin-top: 32px;
+     font-size: 12px;
+     
+ }
 
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-    margin-top: 2px;
-}    
-
-.frase {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bolder; 
-    font-style: italic;
-    font-size: 14px;
-    margin-top: 35px;
-   
-   
-}
-
-span{
+ /* o botao e-mail ficou totalmentte desconfigurado dos outros. motivo = inexplicável */
+ 
+ .botao, .botao1 {
+     width: 220px;
+     height: 45px;
+    border-radius: 6px;
+     margin-top: 8px;
+     align-items: center;
+     background-image: linear-gradient(114deg,  rgba(166, 10, 180, 0.664),  rgba(210, 154, 236, 0.808));
     
-    padding-left: 160px;
-    font-size: 12px;
-    font-weight: normal;
-}
+     
+ } 
+ 
+ .botao a {
+     text-decoration: none;
+     font-size: 18px;
+     color: rgb(252, 249, 251);
+       
+ }
+ .botao1 a {
+     text-decoration: none;
+     font-size: 18px;
+     color: rgb(252, 249, 251);
+     margin-right: 25px;
+     
+ }
 
-footer {
+ /* efeito botão */
+ 
+ .botao:hover, .botao1:hover {  
+     transform: scale(1.08);
+ }
+
+ .botao i{
+     padding: 5px;
+     color: rgb(253, 253, 253);
+     font-size: 30px;
     
-    
-    margin-top: 50px;
-    font-size: 12px;
-    
-}
+ }
 
-/* BOTÕES */
+ .botao1 i {
+     color: rgb(255, 250, 251);
+     font-size: 30px;
+    padding-right: 35px;
+    width: 10px;
+    padding-top: 5px;
+ }
+ 
+ .logo img {
+     width: 80px;
+     height: 50px;
+ }
+ 
 
-.botao1, .botao2, .botao3{
-    width: 200px;
-    height: 45px;
-   border-radius: 6px;
-    margin-top: 8px;
-    background-color: violet;
-    
-} 
-
-.botao1 a, .botao2 a, .botao3 a {
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-      
-}
-
-.botao3 a{
-    padding-right: 14px;
-}
-
-.botao1:hover , .botao2:hover, .botao3:hover {  
-    transform: scale(1.08);
-}
-
-
-.botao1 i, .botao2  i {
-    padding: 10px;
-    color: purple;
-    font-size: 30px;
-   
-}
-
-.botao3 i {
-   padding-right:35px;
-   padding-top: 10px;
-   color: purple;
-   font-size: 30px;
-}
 
